@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Noto+Sans+Kawi:wght@500&family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.page-wrapper{
+    padding: 0 180px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.nav__logo{
+
+}
+.nav-links{
+    display: flex;
+    column-gap: 24px;
+   
+}
+.nav-links__link{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+     /* Прибираємо нижнє підкреслювання */
+     text-decoration: none;
+}
+.languages{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    width: 1440px;
+height: 132px;
+flex-shrink: 0;
+}
+.languages__ua{
+
+}
+.languages__split{
+    width: 1px;
+    height: 14px;
+    border-radius: 6px;
+    background:#2C2C2C;
+}
+.languages__en{
+
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    border: 1px solid #2C2C2C;
+    padding: 4px 8px 4px 44px;
+    row-gap: 4px;
+}
+.second{
+    padding: 12px 8px 12px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    border: 1px solid #2C2C2C;
+    
+}
+.number__info{
+
+}
+.number__tel{
+text-decoration: none;
+color:  #2C2C2C;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.active-link{
+    color: #251ADD;
+}
+.active-language{
+    color: #251ADD;
+}
+.main_info{
+display: flex;
+justify-content: center;
+width: 1440px;
+height: 5102px;
+background: #FFF;
+}
+.main_text{
+    display: flex;
+    width: 528px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-right: 180px;
+}
+.main_title{
+    color: #039CFD;
+    font-family: Montserrat Alternates;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 480px;
+}
+.main_fond{
+    color:  #039cfd;
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 480px;
+}
+.main_descrptn{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    width: 480px;
+}
+.main_img{
+margin-right: 80px;
+}
+.main_image{
+    width: 433px;
+height: 398px;
+flex-shrink: 0;
+}
