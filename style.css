@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+html{
+    height: 100%;
+}
 .page-wrapper{
     padding: 0 180px;
     
@@ -491,4 +494,151 @@ align-items: center;
     font-weight: 400;
     line-height: 120%; /* 19.2px */
     opacity: 0.5;
+    padding-top: 40px;
+}
+.main_questions{
+    width: 1080px;
+    height: 417px;
+    flex-shrink: 0;
+}
+.main_questions--text{
+    
+}
+.main_questions--text-title{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.main_questions--text-span{
+    color:  #000;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 180% */
+}
+.main_questions--containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.main_questions--container1{
+    border-radius: 6px;
+    background: #E9EDEF;
+    width: 528px;
+}
+.main_questions--container2{
+    border-radius: 6px;
+    background: #E9EDEF;
+    width: 528px;
+    margin-top: 16px;
+}
+.main_questions--container3{
+    border-radius: 6px;
+    background: #E9EDEF;
+    width: 528px;
+  
+}
+.main_questions--container-text{
+   
+}
+.main_questions--container-text_titles{
+    width: 403px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+.main_questions--container-text_title{
+    color: #4B5354;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.main_questions--container-text_titlesimg{
+
+}
+.main_questions--container-text_descrpn{
+    color:  #4B5354;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    padding-bottom: 20px;
+}
+.main_consult{
+    border: 5px solid  #251ADD;
+    width: 1080px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_consult--text{
+    width: 528px;
+    height: 57px;
+    left: 92px;
+    top: 33px;
+}
+.main_consult--text-title{
+    width: 527px;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.main_consult--text-span{
+    width: 528px;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */    
+}
+.main_consult--buttons{
+    display: flex;
+    align-items: flex-start;
+    gap: 38px;     
+}
+.main_consult--button{
+    border-radius: 60px;
+    border: 1px solid  #2c2c2c;
+    width: 156px;
+    height: 40px;
+}
+.main_consult--button-title{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 12px */
+}
+.main_consult--button-tel{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+   text-decoration: none;
+}
+.main_consult--button-tilt{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+    text-decoration: none;
 }
