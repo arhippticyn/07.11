@@ -642,3 +642,101 @@ align-items: center;
     line-height: normal;    
     text-decoration: none;
 }
+.footer{
+    width: 1440px;
+    height: 527px;
+    flex-shrink: 0;
+    background:  #FFF;  
+    margin-top: 128px;  
+}
+.footer_nav{
+display: flex;
+align-items: center;
+}
+.footer_nav--logo{
+    display: flex;
+    width: 160.148px;
+    height: 130.607px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+
+}
+.footer_nav_infos{
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+.footer_nav_info{
+    
+}
+.footer_nav_info-title{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.footer_nav_info-text{
+    text-decoration: none;
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+.footer_nav_mesagee{
+    display: flex;
+    width: 160.148px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+.footer_nav_mesagee--title{
+    color:  #2C2C2C;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer_nav_mesagee--images{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_nav_mesagee--img{
+    width: 16px;
+    height: 16px;
+}
+.footer_end{
+    width: 1073.994px;
+    height: 1.01px;
+    flex-shrink: 0;
+    border: 1px solid , #514F4F;
+    opacity: 0.2;
+    background:  #0A142F;
+    margin-top: 119px;    
+}
+.footer_end--text{
+    display: flex;
+    justify-content: center;
+}
+.footer_end--span{
+    color:  #2C2C2C;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
